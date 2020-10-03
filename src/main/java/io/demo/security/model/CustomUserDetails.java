@@ -1,4 +1,4 @@
-package io.ankit.security.model;
+package io.demo.security.model;
 
 import java.util.Collection;
 import java.util.stream.Collectors;
@@ -7,7 +7,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import io.ankit.security.entity.User;
+import io.demo.security.entity.User;
 
 public class CustomUserDetails implements UserDetails {
 

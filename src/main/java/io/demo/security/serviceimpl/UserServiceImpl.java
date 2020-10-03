@@ -1,4 +1,4 @@
-package io.ankit.security.serviceimpl;
+package io.demo.security.serviceimpl;
 
 import java.util.Optional;
 
@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import io.ankit.security.entity.User;
-import io.ankit.security.repository.UserRepository;
-import io.ankit.security.service.UserService;
+import io.demo.security.entity.User;
+import io.demo.security.repository.UserRepository;
+import io.demo.security.service.UserService;
 
 @Service
 public class UserServiceImpl implements UserService {

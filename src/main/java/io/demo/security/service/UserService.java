@@ -1,8 +1,8 @@
-package io.ankit.security.service;
+package io.demo.security.service;
 
 import org.springframework.stereotype.Service;
 
-import io.ankit.security.entity.User;
+import io.demo.security.entity.User;
 
 @Service
 public interface UserService {

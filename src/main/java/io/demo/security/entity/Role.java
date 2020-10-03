@@ -1,4 +1,4 @@
-package io.ankit.security.entity;
+package io.demo.security.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

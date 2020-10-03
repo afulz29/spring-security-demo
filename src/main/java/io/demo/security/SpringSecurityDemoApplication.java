@@ -1,4 +1,4 @@
-package io.ankit.security;
+package io.demo.security;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

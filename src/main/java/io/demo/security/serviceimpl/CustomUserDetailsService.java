@@ -1,4 +1,4 @@
-package io.ankit.security.serviceimpl;
+package io.demo.security.serviceimpl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -6,9 +6,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import io.ankit.security.entity.User;
-import io.ankit.security.model.CustomUserDetails;
-import io.ankit.security.repository.UserRepository;
+import io.demo.security.entity.User;
+import io.demo.security.model.CustomUserDetails;
+import io.demo.security.repository.UserRepository;
 
 @Service
 public class CustomUserDetailsService implements UserDetailsService {
